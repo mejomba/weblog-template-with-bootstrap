@@ -97,28 +97,15 @@
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
-</div>
 
-
-
-
-
-
-<div class="container my-4">
-
-    <p class="font-weight-bold">Bootstrap carousel multiple items is an improved version of the standard bootstrap
-        carousel which allows you to put inside more than one element.</p>
-
-    <p><strong>Detailed documentation and more examples of Bootstrap grid you can find in our <a href="https://mdbootstrap.com/docs/jquery/javascript/carousel/"
-                                                                                                 target="_blank">Bootstrap Carousel Docs</a>.</p>
 
     <hr class="my-4">
 
@@ -126,11 +113,17 @@
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
         <!--Controls-->
-        <div class="controls-top">
-            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-        </div>
-        <!--/.Controls-->
+
+        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+            <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
 
         <!--Indicators-->
         <ol class="carousel-indicators">
@@ -138,6 +131,7 @@
             <li data-target="#multi-item-example" data-slide-to="1"></li>
             <li data-target="#multi-item-example" data-slide-to="2"></li>
             <li data-target="#multi-item-example" data-slide-to="3"></li>
+            <li data-target="#multi-item-example" data-slide-to="4"></li>
         </ol>
         <!--/.Indicators-->
 
@@ -148,12 +142,11 @@
             <div class="carousel-item active">
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                                 alt="Card image cap">
+                            <img class="card-img-top" src="static/images/1-300200.jpeg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title">Card title 1</h4>
+                                <h4 class="card-title">عنوان مقاله اول</h4>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                                     card's content.</p>
                                 <a class="btn btn-primary">Button</a>
@@ -161,7 +154,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 clearfix d-none d-md-block">
+
+                    <div class="col-md-3 clearfix d-none d-md-block">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
                                  alt="Card image cap">
@@ -174,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="col-md-3 clearfix d-none d-md-block">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
                                  alt="Card image cap">
@@ -186,7 +180,22 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title 3</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a class="btn btn-primary">Button</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
 
             </div>
             <!--/.First slide-->
@@ -195,7 +204,7 @@
             <div class="carousel-item">
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
                                  alt="Card image cap">
@@ -208,7 +217,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="col-md-3 clearfix d-none d-md-block">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
                                  alt="Card image cap">
@@ -221,7 +230,20 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title 6</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a class="btn btn-primary">Button</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 clearfix d-none d-md-block">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
                                  alt="Card image cap">
@@ -242,7 +264,7 @@
             <div class="carousel-item">
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
                                  alt="Card image cap">
@@ -255,7 +277,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="col-md-3 clearfix d-none d-md-block">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
                                  alt="Card image cap">
@@ -268,7 +290,20 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title 9</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a class="btn btn-primary">Button</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 clearfix d-none d-md-block">
                         <div class="card mb-2">
                             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
                                  alt="Card image cap">
@@ -291,9 +326,9 @@
     </div>
     <!--/.Carousel Wrapper-->
 
+
+
 </div>
-
-
 
 
 
