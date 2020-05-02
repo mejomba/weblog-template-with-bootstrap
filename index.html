@@ -14,12 +14,23 @@
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet/less" type="text/css" href="static/css/mainscss.scss">
 
+    <style>
+        @font-face {
+            font-family: 'BYekan';
+            src:url('static/fonts/BYekan.eot');
+            src:local('☺'),
+            url('static/fonts/BYekan.ttf') format('truetype'),
+            url('static/fonts/BYekan.woff') format('woff');
+            }
 
+        body{
+            font-family: BYekan;
+            /*font-size: 18px;*/
+        }
+
+    </style>
 </head>
 <body>
-
-
-
 
 <!--    start container    -->
 <div class="container-fluid">
@@ -52,7 +63,10 @@
         <input class="form-control mr-sm-2" type="search" placeholder="جستحوی مقاله..." aria-label="Search">
     </form>
 
-    <a class="navbar-brand mx-3" title="نام برند شما" href="#">برند و لوگو</a>
+    <a class="navbar-brand mx-3" title="نام برند شما" href="#">
+
+        برند و لوگو
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
