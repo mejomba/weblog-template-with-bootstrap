@@ -193,9 +193,9 @@ footer .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
-footer {
-    background: #007b5e !important;
-}
+/*footer {*/
+/*    background: #007b5e !important;*/
+/*}*/
 footer h5{
 	padding-right: 10px;
     border-right: 3px solid #eeeeee;
