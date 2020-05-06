@@ -7,4 +7,4 @@ download zip file or use
 or use ssh method
 `git clone git@github.com:mejomba/weblog-template-with-bootstrap.git`
 
-open index.html
+open `index.html`
