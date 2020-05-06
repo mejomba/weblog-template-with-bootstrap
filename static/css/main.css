@@ -309,3 +309,13 @@ footer ul.quick-links li a i{
 .fb-social-hover:hover {
     background-color: rgba(59,89,152,1);
 }
+
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+a:hover {
+    text-decoration: none;
+}
