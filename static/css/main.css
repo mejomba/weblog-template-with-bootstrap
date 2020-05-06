@@ -1,3 +1,16 @@
+ @font-face {
+            font-family: 'BYekan';
+            src:url('../fonts/BYekan.eot');
+            src:local('☺'),
+            url('../fonts/BYekan.ttf') format('truetype'),
+            url('../fonts/BYekan.woff') format('woff');
+            }
+
+        body{
+            font-family: BYekan;
+            /*font-size: 18px;*/
+        }
+
 .navbar-center {
     position: absolute;
     left: 50%;
@@ -255,4 +268,44 @@ footer ul.quick-links li a i{
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+#footerlink:hover {
+    color: cyan;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+.text-25 {
+    font-size: 25px;
+}
+.text-30 {
+    font-size: 30px;
+}
+.text-40 {
+    font-size: 40px;
+}
+.text-50 {
+    font-size: 50px;
+}
+
+.fb-color {
+    background-color: rgba(59,89,152,0.90);
+}
+.google-color {
+    background-color: rgba(221,75,57,0.90);
+}
+
+/*.login {*/
+/*        background: -webkit-linear-gradient(left, #00c6ff, #0ea6ff);*/
+
+/*}*/
+.rounded-50 {
+    border-radius: 50px;
+}
+.google-social-hover:hover {
+    background-color: rgba(221,75,57,1);
+}
+.fb-social-hover:hover {
+    background-color: rgba(59,89,152,1);
 }
